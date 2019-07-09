@@ -8,10 +8,12 @@
 
 <title>LEARN-REAL</title>
 
+<!-- Comment from Andre, as test -->
+
 <!-- Bootstrap core CSS -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom fonts for this template 
+<!-- Custom fonts for this template
 <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 -->
 <link href="https://fonts.googleapis.com/css?family=Dosis:400,800|Open+Sans:700,400,300" rel="stylesheet">
@@ -24,7 +26,7 @@
 <body id="page-top">
 
 
-<!-- Navigation --> 
+<!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="#page-top"><b>Learn-Real</b></a>
@@ -61,7 +63,7 @@
 <div class="row">
 <div class="col-lg-12 mx-auto">
 <h2>About the project</h2>
-<p>The acquisition of manipulation skills in robotics involves the combination of object recognition, action-perception coupling and physical interaction with the environment. Several learning strategies have been proposed to acquire such skills. As for humans and other animals, the robot learner needs to be exposed to varied situations. It needs to try and refine the skill many times, and/or needs to observe several attempts of successful movements by others to adapt and generalize the learned skill to new situations. Such skill is not acquired in a single training cycle, motivating the need to compare, share and re-use the experiments.</p> 
+<p>The acquisition of manipulation skills in robotics involves the combination of object recognition, action-perception coupling and physical interaction with the environment. Several learning strategies have been proposed to acquire such skills. As for humans and other animals, the robot learner needs to be exposed to varied situations. It needs to try and refine the skill many times, and/or needs to observe several attempts of successful movements by others to adapt and generalize the learned skill to new situations. Such skill is not acquired in a single training cycle, motivating the need to compare, share and re-use the experiments.</p>
 <p>In LEARN-REAL, we propose to learn manipulation skills through simulation for object, environment and robot, with an innovative toolset comprising: 1) a simulator with realistic rendering of variations allowing the creation of datasets and the evaluation of algorithms in new situations; 2) a virtual-reality interface to interact with the robots within their virtual environments, to teach robots object manipulation skills in multiple configurations of the environment; and 3) a web-based infrastructure for principled, reproducible and transparent benchmarking of learning algorithms for object recognition and manipulation by robots.</p>
 <p>These features will extend existing softwares in several ways. 1) and 2) will capitalize on the widespread development of realistic simulators for the gaming industry and the associated low-cost virtual reality interfaces. 3) will harness the existing <a href="https://www.beat-eu.org/" target="_BLANK">BEAT platform</a> developed at Idiap, which will be extended to object recognition and manipulation by robots, including the handling of data, algorithms and benchmarking results. As use case, we will study the scenario of vegetable/fruit picking and sorting.</p>
 
@@ -99,7 +101,7 @@
 
 <h5>Case study: recognition and manipulation of fruits/vegetables</h5>
 <ul>
-<li>Testing the developed toolchain within the case study of grasping fruits/vegetables.</li> 
+<li>Testing the developed toolchain within the case study of grasping fruits/vegetables.</li>
 <li>Recognition of objects and segmentation of their instances, estimation of their 3D pose, and object grasping and manipulation by exploiting compact representations of object-adaptive
 movement primitives.</li>
 <li>Domain adaptation to evaluate and correct the biases of synthetic data used for training w.r.t. real images observed by robots.</li>
@@ -197,7 +199,7 @@ convert \( c_layer.png null: m_layer.png -compose multiply -layers Composite \) 
 convert \( background.png null: cmy_layer.png -layers Composite \) null: foreground.png -layers Composite logo.png
 </code></p>
 <p class="text-muted">
-The use of a command line to generate the logo evokes the synthetic image rendering and reproducibility aspects of the project. It also alludes to the exploitation of existing tools in new contexts, as we do in Learn-Real through the use of the Beat platform for the benchmarking of robot manipulation tasks. The white noise texture and the superposed CMYK colored layers allude to the variational aspects, which are central to the learning aspects of the project. The dithered background evokes the rendering techniques employed in early video games, referring to the use in the project of engines (simulators) and interfaces (head-mounted displays) originating from the video game industry. 
+The use of a command line to generate the logo evokes the synthetic image rendering and reproducibility aspects of the project. It also alludes to the exploitation of existing tools in new contexts, as we do in Learn-Real through the use of the Beat platform for the benchmarking of robot manipulation tasks. The white noise texture and the superposed CMYK colored layers allude to the variational aspects, which are central to the learning aspects of the project. The dithered background evokes the rendering techniques employed in early video games, referring to the use in the project of engines (simulators) and interfaces (head-mounted displays) originating from the video game industry.
 </p>
 </div>
 </footer>
